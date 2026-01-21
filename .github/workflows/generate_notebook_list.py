@@ -16,8 +16,8 @@ NOTEBOOK_DIR = "notebooks"
 SUBMODULE_ROOT = "external_notebooks"
 JHUB_INSTANCE = "workspace.polartep.hub-otc.eox.at"
 IGNORE_FOLDERS = ["venv", ".git", ".github", "_build", "_data", "dist"]
-DEF_ORG = "ESA-eodashboards"
-DEF_REPO = "eodashboard-notebooks"
+DEF_ORG = "gtif-cerulean"
+DEF_REPO = "polartep_notebooks"
 
 
 def extract_last_image(
