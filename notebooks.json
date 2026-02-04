@@ -12,7 +12,7 @@
     "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/ccadi_UC3.ipynb&branch=main"
   },
   {
-    "title": "SICE",
+    "title": "Sentinel-3 Snow and ICE products (SICE)",
     "description": "",
     "metadata": {},
     "image": null,
@@ -34,17 +34,5 @@
     "source": "local",
     "path": "notebooks/xcube_tutorial.ipynb",
     "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/xcube_tutorial.ipynb&branch=main"
-  },
-  {
-    "title": "Important! You must generate a Specklia access key before running this workbook",
-    "description": "",
-    "metadata": {},
-    "image": null,
-    "link": "notebooks/4d-viewer-specklia-example",
-    "org": "gtif-cerulean",
-    "repo": "polartep_notebooks",
-    "source": "local",
-    "path": "notebooks/4d_viewer_specklia_example.ipynb",
-    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/4d_viewer_specklia_example.ipynb&branch=main"
   }
 ]
