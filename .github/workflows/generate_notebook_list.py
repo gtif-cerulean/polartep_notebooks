@@ -223,7 +223,14 @@ def collect_notebooks():
                 rel_path = os.path.relpath(abs_path, ROOT_DIR).replace("\\", "/")
                 meta = extract_frontmatter(abs_path)
                 nb = nbformat.read(abs_path, as_version=4)
-                image = meta.get("image") or extract_last_image(nb, rel_path)
+                image = meta.get("image")
+                if not image:
+                    cell = nb.cells[0]
+                    if cell.cell_type == "markdown":
+                        if cell.metadata.get("image"):
+                            image = cell.metadata["image"]
+                if not image:
+                    extract_last_image(nb, rel_path)
                 # TODO: need to extract available branch
                 catalog.append(
                     {
