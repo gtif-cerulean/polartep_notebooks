@@ -35,6 +35,7 @@ def extract_last_image(
             if cell.metadata.get("image"):
                 print('cell.metadata.get("image"),:', cell.metadata.get("image"))
                 found_images.extend(cell.metadata["image"])
+                break
             for line in lines:
                 # Match Markdown image: ![alt](path)
                 md_img = re.findall(r"!\[.*?\]\((.*?)\)", line)
@@ -44,6 +45,7 @@ def extract_last_image(
                 myst_img = re.findall(r":::\{figure\}\s+(.*?)\s*$", line)
                 if myst_img:
                     found_images.extend(myst_img)
+            print("found_images:", found_images)
 
     if found_images:
         last_image_rel = found_images[-1].strip()
