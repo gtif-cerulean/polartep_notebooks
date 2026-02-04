@@ -32,7 +32,7 @@ def extract_last_image(
     for cell in nb.cells:
         if cell.cell_type == "markdown":
             lines = cell.source.splitlines()
-            if cell.metadata["image"]:
+            if cell.metadata.get("image"):
                 found_images.extend(cell.metadata["image"])
             for line in lines:
                 # Match Markdown image: ![alt](path)
