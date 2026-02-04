@@ -15,7 +15,7 @@
     "title": "Sentinel-3 Snow and ICE products (SICE)",
     "description": "",
     "metadata": {},
-    "image": "sice.png",
+    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/sice.png",
     "link": "notebooks/sice",
     "org": "gtif-cerulean",
     "repo": "polartep_notebooks",
