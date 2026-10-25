@@ -1,5 +1,29 @@
 [
   {
+    "title": "PolarTEP eScience Lab:  Using XCube in Polar-TEP to Generate NDVI",
+    "description": "",
+    "metadata": {},
+    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/ndvi.png",
+    "link": "notebooks/xcube-tutorial",
+    "org": "gtif-cerulean",
+    "repo": "polartep_notebooks",
+    "source": "local",
+    "path": "notebooks/xcube_tutorial.ipynb",
+    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/xcube_tutorial.ipynb&branch=main"
+  },
+  {
+    "title": "M-chi decomposition",
+    "description": "",
+    "metadata": {},
+    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/rcm.jpeg",
+    "link": "notebooks/mchi-decomposition",
+    "org": "gtif-cerulean",
+    "repo": "polartep_notebooks",
+    "source": "local",
+    "path": "notebooks/mchi_decomposition.ipynb",
+    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/mchi_decomposition.ipynb&branch=main"
+  },
+  {
     "title": "Ocean Acidification",
     "description": "",
     "metadata": {},
@@ -24,15 +48,51 @@
     "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/SICE.ipynb&branch=main"
   },
   {
-    "title": "PolarTEP eScience Lab:  Using XCube in Polar-TEP to Generate NDVI",
+    "title": "STAC catalog for EODMS RCM-ARD",
     "description": "",
     "metadata": {},
-    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/ndvi.png",
-    "link": "notebooks/xcube-tutorial",
+    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/rcm.jpeg",
+    "link": "notebooks/rcm-ard-stac-example",
     "org": "gtif-cerulean",
     "repo": "polartep_notebooks",
     "source": "local",
-    "path": "notebooks/xcube_tutorial.ipynb",
-    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/xcube_tutorial.ipynb&branch=main"
+    "path": "notebooks/rcm_ard_stac_example.ipynb",
+    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/rcm_ard_stac_example.ipynb&branch=main"
+  },
+  {
+    "title": "Radarsat1 L1 Processing",
+    "description": "",
+    "metadata": {},
+    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/rcm.jpeg",
+    "link": "notebooks/radarsat1-l1-processing",
+    "org": "gtif-cerulean",
+    "repo": "polartep_notebooks",
+    "source": "local",
+    "path": "notebooks/radarsat1_l1_processing.ipynb",
+    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/radarsat1_l1_processing.ipynb&branch=main"
+  },
+  {
+    "title": "RR/RL to RH/VR",
+    "description": "",
+    "metadata": {},
+    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/rcm.jpeg",
+    "link": "notebooks/rrrl-to-rhrv",
+    "org": "gtif-cerulean",
+    "repo": "polartep_notebooks",
+    "source": "local",
+    "path": "notebooks/rrrl_to_rhrv.ipynb",
+    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/rrrl_to_rhrv.ipynb&branch=main"
+  },
+  {
+    "title": "Coordinate transformations",
+    "description": "",
+    "metadata": {},
+    "image": "https://raw.githubusercontent.com/gtif-cerulean/polartep_notebooks/refs/heads/main/notebooks/assets/rcm.jpeg",
+    "link": "notebooks/coordinate-transformations",
+    "org": "gtif-cerulean",
+    "repo": "polartep_notebooks",
+    "source": "local",
+    "path": "notebooks/coordinate_transformations.ipynb",
+    "gitpuller": "https://workspace.polartep.hub-otc.eox.at/hub/user-redirect/git-pull?repo=https://github.com/gtif-cerulean/polartep_notebooks&urlpath=lab/tree/polartep_notebooks/notebooks/coordinate_transformations.ipynb&branch=main"
   }
 ]

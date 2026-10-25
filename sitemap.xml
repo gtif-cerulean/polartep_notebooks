@@ -8,6 +8,21 @@
     <loc>http://localhost:3000/notebooks/ccadi-uc3</loc>
   </url>
   <url>
+    <loc>http://localhost:3000/notebooks/coordinate-transformations</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/mchi-decomposition</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/radarsat1-l1-processing</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/rcm-ard-stac-example</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/rrrl-to-rhrv</loc>
+  </url>
+  <url>
     <loc>http://localhost:3000/notebooks/sice</loc>
   </url>
   <url>
